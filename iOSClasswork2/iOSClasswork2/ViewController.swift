@@ -9,39 +9,39 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    var emojiarray : [String] = []
     @IBOutlet weak var animaltextfield: UITextField!
     
     @IBOutlet weak var animalemojilabel: UILabel!
-    @IBAction func ShowAnimal(_ sender: Any) {
+    
+    
+    
+    
+    @IBAction func AddAnimalToArray(_ sender: Any) {
         let animal = animaltextfield.text!
         
         
+        // اكتب الifstatement الكود تحت
         
-        var animalemoji = ""
-        // اكتب الداله تحت هذا السطر
+     
         
-        if animal == "قطه"
+        // النهايه
+        animaltextfield.text = ""
+    }
+    
+    
+    
+    
+    @IBAction func ShowAnimal(_ sender: Any) {
+        
+        
+        for label in emojiarray
         {
-            animalemoji = "🐱"
+            animalemojilabel.text! += label
+            
         }
-        else if animal == "سمكه"
-        {
-            animalemoji = "🐠"
-        }
-        else if animal == "أسد"
-        {animalemoji = "🦁"}
-        
-        //نهايه الداله
         
         
-        
-        
-        
-        
-        
-        
-        animalemojilabel.text = animalemoji
     }
     override func viewDidLoad() {
         super.viewDidLoad()

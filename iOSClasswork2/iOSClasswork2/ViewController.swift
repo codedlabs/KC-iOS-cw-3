@@ -9,38 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var emojiarray : [String] = []
-    @IBOutlet weak var animaltextfield: UITextField!
+    // Here: هذه المصفوفة التي ستقوم بالإضافة إليها
+    var emojiArray : [String] = []
     
-    @IBOutlet weak var animalemojilabel: UILabel!
-    
-    
+    @IBOutlet weak var animalTextField: UITextField!
+    @IBOutlet weak var animalEmojiLabel: UILabel!
     
     
     @IBAction func AddAnimalToArray(_ sender: Any) {
-        let animal = animaltextfield.text!
+        let animal = animalTextField.text!
         
         
-        // اكتب الifstatement الكود تحت
+        // MARK: - اكتب ال if statement الكود تحت
+
         
-     
-        
-        // النهايه
-        animaltextfield.text = ""
+        // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
+        animalTextField.text = ""
     }
     
     
     
     
     @IBAction func ShowAnimal(_ sender: Any) {
-        
-        
-        for label in emojiarray
+        // MARK: - تقوم هذه الدالة بعض الإيموجيز للحيوانات في الأسفل باستعمال `for each`
+        for label in emojiArray
         {
-            animalemojilabel.text! += label
-            
+            animalEmojiLabel.text! += label
         }
-        
+        // BONUS: ✅ قم بمسح مكونات المصفوفة بعد عرضها
+
         
     }
     override func viewDidLoad() {

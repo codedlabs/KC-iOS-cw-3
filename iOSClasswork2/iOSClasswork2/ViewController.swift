@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    // Here: هذه المصفوفة التي ستقوم بالإضافة إليها
+    /// 👀 **NOTE** هذه المصفوفة التي ستقوم بالإضافة إليها `emojiArray`
     var emojiArray : [String] = []
     
     @IBOutlet weak var animalTextField: UITextField!
@@ -20,8 +20,8 @@ class ViewController: UIViewController {
         let animal = animalTextField.text!
         
         
-        // MARK: - اكتب ال if statement الكود تحت
-
+        // TODO: - اكتب ال if statement الكود تحت
+        
         
         // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
         animalTextField.text = ""
@@ -31,20 +31,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func ShowAnimal(_ sender: Any) {
-        // MARK: - تقوم هذه الدالة بعض الإيموجيز للحيوانات في الأسفل باستعمال `for each`
+        // MARK:  تقوم هذه الدالة بعرض الإيموجيز للحيوانات في الأسفل باستعمال `for each`
+        animalEmojiLabel.text = ""
         for label in emojiArray
         {
             animalEmojiLabel.text! += label
         }
-        // BONUS: ✅ قم بمسح مكونات المصفوفة بعد عرضها
+        /// **BONUS**: 🎁 قم بمسح مكونات المصفوفة بعد عرضها
 
-        
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-    
-    
 }
 

@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func ShowAnimal(_ sender: Any) {
-        // MARK:  تقوم هذه الدالة بعرض الإيموجيز للحيوانات في الأسفل باستعمال `for`
+        // MARK:  تقوم هذه الدالة بعرض الإيموجيز للحيوانات في الأسفل باستعمال `for in`
         animalEmojiLabel.text = ""
         for label in emojiArray
         {

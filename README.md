@@ -15,7 +15,7 @@
 if animal == "قطه"
 {
   emojiArray.append ( "🐱") 
-} \
+} 
 ```
 
 </div>

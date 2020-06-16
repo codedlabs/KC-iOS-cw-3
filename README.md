@@ -35,6 +35,6 @@ if animal == "قطه"
 آخر موعد لرفع الكود\
 19/6/2020
 
-<img src="/emojiApp.gif" width="35%">
+<img src="/emojiApp.gif" width="350px">
 
 </div>

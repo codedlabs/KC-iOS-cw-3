@@ -1,6 +1,6 @@
 <div dir='rtl'>
   
-<img src="/emojiApp.gif" width="40%">
+
 
 1. افتح رابط الواجب من [هنا](https://github.com/kuwaitcodes/ios-cw-2)
 2. قم بعمل Fork لمجلد الواجب
@@ -34,4 +34,7 @@ if animal == "قطه"
 
 آخر موعد لرفع الكود\
 19/6/2020
+
+<img src="/emojiApp.gif" width="35%">
+
 </div>

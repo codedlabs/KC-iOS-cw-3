@@ -1,4 +1,6 @@
 <div dir='rtl'>
+  
+[gif](/emojiApp.gif)
 
 1. افتح رابط الواجب من [هنا](https://github.com/kuwaitcodes/ios-cw-2)
 2. قم بعمل Fork لمجلد الواجب

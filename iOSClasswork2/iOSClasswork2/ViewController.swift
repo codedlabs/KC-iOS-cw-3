@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     /// 👀 **NOTE** هذه المصفوفة التي ستقوم بالإضافة إليها `emojiArray`
     var emojiArray : [String] = []
     
@@ -17,28 +17,45 @@ class ViewController: UIViewController {
     
     
     @IBAction func AddAnimalToArray(_ sender: Any) {
-        let animal = animalTextField.text!
+        var animal = animalTextField.text!
         
         
-        // MARK: - اكتب ال if statement الكود تحت
+        // MARK: - 1️⃣ emojiArray  الي  animal قم باضافه متغير
+        
+        
+        
+        
+        
         
         
         // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
         animalTextField.text = ""
-    }
-    
-    
-    
-    
-    @IBAction func ShowAnimal(_ sender: Any) {
-        // MARK:  تقوم هذه الدالة بعرض الإيموجيز للحيوانات في الأسفل باستعمال `for in`
         animalEmojiLabel.text = ""
+     // MARK:  تقوم هذه الدالة بعرض الإيموجيز للحيوانات في الأسفل باستعمال `for in`
         for label in emojiArray
         {
             animalEmojiLabel.text! += label
         }
         /// **BONUS**: 🎁 قم بمسح مكونات المصفوفة بعد عرضها
+   
+    
+        
+        
+        
+        hidekeyboard()
+    }
 
+    func hidekeyboard()  {
+        animalTextField.resignFirstResponder()
+    
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        hidekeyboard()
+        return true
+    }
+    
+    override func viewDidLoad() {
+        animalTextField.delegate = self
     }
 }
 

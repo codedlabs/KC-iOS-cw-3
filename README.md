@@ -31,6 +31,6 @@
 آخر موعد لرفع الكود\
 12/9/2020
 
-<img src="/emojiApp.gif" width="350px">
+<img src="/cw2.gif" width="350px">
 
 </div>

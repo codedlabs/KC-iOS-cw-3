@@ -25,7 +25,7 @@
 ### بونص! 🎁
 1.   للمقارنه كما موضح في المثال if-Statment استخدم 
 
-<img src="/bonus.png" width = "350px" >
+<img src="/bonus.png" width = "350px" > \
 
 <img src="/cw2.gif" width="350px">
 

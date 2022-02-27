@@ -28,12 +28,13 @@ ZStack {
   }}
 ```
 
-
+ <p dir="rtl">
    * وثم نضيف بداخل الـ VStack مكونات الصفحة 
+</p>
 
-
-
+<p dir="rtl">
 * نستطيع أن نضيف بعض الاشياء لتحسين شكل ال text 
+</p>
 
 ```
 Text("hello my name is Fatma")

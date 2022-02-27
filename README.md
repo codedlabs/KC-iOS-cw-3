@@ -3,12 +3,14 @@
 # <p dir="rtl">
 فيديوهات الدرس</p>
 
+<p dir="rtl">
 
 * [الخطوط](https://youtu.be/OLRtp1v_IjQ)
-
+</p>
+<p dir="rtl">
 
 * [ال stacks](https://youtu.be/7M7zPyycC8o)  
-
+</p>
 
 # <p dir="rtl">
 

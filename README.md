@@ -40,7 +40,8 @@
 <img src="/cw1-3.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
-
+<br>
+<br>
 
  <h1 align="right">التمرين ٢ </h1>
 
@@ -69,16 +70,16 @@
 <p dir="rtl">
 ملاحظة<strong>✨</strong>:</p>
 
+<p dir="rtl">
 * 1KWD = $3.28
 
-
+<p dir="rtl">
 * 1KWD = £2.46
 
-
-* 1KWD = €2.70
 <p dir="rtl">
+* 1KWD = €2.70
 
 <br>
-
+<p dir="rtl">
 <strong>بونص1✨</strong>: قم بجعل الأرقام الظاهرة تحتوي على العدد الصحيح و ٢ عدد عشري فقط بعد الفاصلة.</p>
 

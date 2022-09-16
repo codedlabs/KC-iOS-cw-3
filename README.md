@@ -11,7 +11,8 @@
 <p dir="rtl">
 *قم بفتح ملف Xcode </p>
 
-
+ <br>
+ 
 <p dir="rtl">
 أولاً :  قم بتعريف المتغيرات التاليه: , <strong>hobby</strong> ,<strong>name</strong> , <strong>favouriteNumber </strong>، واختر النوع المناسب لكل منهم. مثلا : الإسم من نوع : String وهكذا.</p>
 
@@ -52,6 +53,9 @@
 ولدت في سنة "سنة الميلاد".</p>
 
 
+ <br>
+ 
+
 <p dir="rtl">
 ثانياً : قم بعمل التالي:</p>
 
@@ -63,6 +67,9 @@
 * قم باضافة textField يقوم بحفظ ال **username**
 <p dir="rtl">
 * قم باظهار **الusername** بجانب الجملة : اسم المستخدم
+
+ <br>
+  <br>
 
 <p dir="rtl">
 <strong>بونص✨</strong>: قم بإضافة textField آخر يحفظ الاسم الثلاثي ويقوم بعرضه تحت "اسم المستخدم".</p>
